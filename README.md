@@ -1,2 +1,2 @@
 # HNSW
-Integrantes: Federico Iribar, Gianfranco Cordero, José Huamaní, Daniel Salaverry
+Integrantes: Federico Iribar, Gianfranco Cordero, José Huamaní, David Salaverry
