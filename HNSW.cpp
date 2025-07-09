@@ -129,20 +129,3 @@ Node* search(Node* entry_point, const vector<float>& query) {
 
     return greedy_search(curr, query, 0);
 }
-
-int main() {
-    srand(time(nullptr));
-    Node* entry_point = nullptr;
-    vector<Node*> all_nodes;
-
-    insert(entry_point, all_nodes, {1, 1}, 1);
-    insert(entry_point, all_nodes, {2, 2}, 2);
-    insert(entry_point, all_nodes, {0, 5}, 3);
-    insert(entry_point, all_nodes, {5, 0}, 4);
-    insert(entry_point, all_nodes, {1, 4}, 5);
-
-    vector<float> query = {0, 3};
-    Node* result = search(entry_point, query);
-
-    cout << "El nodo mas cercano al query es: " << result->id << endl; return 0;
-}

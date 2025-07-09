@@ -3,4 +3,6 @@ project(HNSW)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(HNSW HNSW.cpp)
+add_executable(HNSW HNSW.cpp
+        main.cpp
+        HNSW.h)
